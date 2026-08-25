@@ -195,9 +195,9 @@ export default function Home() {
                 <div className="tree bento-art" aria-hidden="true">
                   <span className="dir">posts/</span>
                   {'\n'}├─ my-first-post/
-                  {'\n'}│{'  '}├─ index.yaml{'        '}
+                  {'\n'}│{'  '}├─ index.yaml{'    '}
                   <span className="file-note">← 条目元数据</span>
-                  {'\n'}│{'  '}└─ content.mdoc{'       '}
+                  {'\n'}│{'  '}└─ content.mdoc{'    '}
                   <span className="hl">← 管理界面保存后自动生成</span>
                   {'\n'}└─ hello-world/
                   {'\n'}{'   '}└─ index.yaml
