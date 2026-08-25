@@ -4,8 +4,6 @@
 
 Keystatic 是 [Thinkmill](https://www.thinkmill.com.au/) 出品的开源内容管理系统（CMS）。它把内容当作代码库里的普通文件来管理，同时提供一套友好的可视化管理界面，让开发者、内容创作者和团队成员能各取所需。
 
-这可以是中文介绍站点的内容来源：本仓库也承载了对应的中文介绍网站。
-
 ---
 
 ## 为什么是 Keystatic？
@@ -71,32 +69,3 @@ bun add @keystatic/core @keystatic/next
 - 官方文档：<https://keystatic.com/docs/introduction>
 - GitHub 仓库：<https://github.com/thinkmill/keystatic>
 - Keystatic Cloud：<https://keystatic.cloud/>
-
----
-
-## 关于本仓库
-
-本仓库是 **Keystatic 中文介绍网站** 的源码，内容翻译自 [Keystatic 官方文档](https://keystatic.com/docs/introduction)，版权归 Thinkmill 所有。
-
-### 技术栈
-
-| 依赖 | 版本 |
-| --- | --- |
-| [Bun](https://bun.sh) | 1.4 |
-| [Vite](https://vite.dev) | 8.2 |
-| [React](https://react.dev) | 19.2 |
-| react-router-dom | 7.18 |
-| TypeScript（原生编译器） | 7.0 |
-
-### 本地运行
-
-```bash
-bun install
-bun run dev       # http://127.0.0.1:5173
-```
-
-### 部署
-
-推送到 `main` 分支即可自动部署到 GitHub Pages（见 `.github/workflows/deploy.yml`）。
-
-线上站点：<https://keystatic.ndjp.net>
