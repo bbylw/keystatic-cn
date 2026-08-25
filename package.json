@@ -1,0 +1,12 @@
+{
+  "name": "keystatic-cn",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Keystatic 中文网站 —— 基于 Git 的代码库内容管理系统",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build && cp dist/index.html dist/404.html",
+    "preview": "vite preview"
+  }
+}
