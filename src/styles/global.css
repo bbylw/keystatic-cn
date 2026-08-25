@@ -1364,10 +1364,7 @@ button {
 }
 
 .docs-sidebar a .en {
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  color: var(--mid);
-  opacity: 0.75;
+  display: none;
 }
 
 .docs-content {

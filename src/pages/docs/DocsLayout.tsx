@@ -19,10 +19,7 @@ export default function DocsLayout() {
             <ul>
               {group.items.map((item) => (
                 <li key={item.slug}>
-                  <NavLink to={`/docs/${item.slug}`}>
-                    <span>{item.cn}</span>
-                    <span className="en">{item.en}</span>
-                  </NavLink>
+                  <NavLink to={`/docs/${item.slug}`}>{item.cn}</NavLink>
                 </li>
               ))}
             </ul>
